@@ -1,0 +1,21 @@
+main {
+  padding: var(--espaciado-s);
+  width: 100%;
+  column-count: 3;
+}
+
+@media (max-width: 576px) {
+  main {
+    column-count: 2;
+  }
+}
+@media (min-width: 992px) and (max-width: 1500px) {
+  main {
+    column-count: 4;
+  }
+}
+@media (min-width: 1501px) {
+  main {
+    column-count: 6;
+  }
+}

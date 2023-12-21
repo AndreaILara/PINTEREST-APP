@@ -1,0 +1,33 @@
+.card {
+  height: fit-content;
+  overflow: hidden;
+  margin-bottom: var(--espaciado-m);
+}
+.card .img-container {
+  border-radius: var(--radio-m);
+  overflow: hidden;
+}
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.card .description h3 {
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card .description .user {
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-top: var(--espaciado-s);
+}
+.card .description .user .img-container {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}

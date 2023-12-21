@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&family=Roboto:wght@300&display=swap');
+:root{
+  --color-primario-1: #792e2e;
+  --color-primario-2: #9d6376;
+  --color-primario-3: #ffc1c4;
+  --texto-1: #ffa3ba;
+  --texto-2: #98466f;
+  --texto-100: #333333;
+  --texto-200: #5c5c5c;
+  --color-bg-00: #fff;
+  --color-bg-100: #f2f2f2;
+  --color-bg-200: #e8e8e8;
+  --color-bg-300: #bfbfbf;
+  --espaciado-xl: 50px;
+  --espaciado-l: 30px;
+  --espaciado-m: 20px;
+  --espaciado-s: 10px;
+  --espaciado-xs: 5px;
+  --radio-s: 5px;
+  --radio-m: 15px;
+  --radio-l: 20px;
+}
+
+* {
+  font-family: 'Noto Serif', serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: var(--texto-100);
+}
+
+body {
+  min-height: 100svh;
+  width: 100%;
+  background-color: var(--color-bg-100);
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espaciado-m);
+}
+
+body h2 {
+  text-align: center;
+  padding: var(--espaciado-l);
+}
