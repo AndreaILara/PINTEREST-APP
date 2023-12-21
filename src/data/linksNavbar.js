@@ -9,17 +9,17 @@ export const links = [
   },
   {
     name: 'Notificaciones',
-    icon: '/public/campana-de-notificacion.png',
+    icon: '/campana-de-notificacion.png',
     url: '#'
   },
   {
     name: 'Mensajes',
-    icon: '/public/comentario.png',
+    icon: '/comentario.png',
     url: '#'
   },
   {
     name: 'Tu Perfil',
-    icon: '/public/mi-espacio.png',
+    icon: '/mi-espacio.png',
     url: '#'
   }
 ];

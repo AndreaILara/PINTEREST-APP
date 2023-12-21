@@ -9,7 +9,7 @@ const USER_KEY = 'kD6EjuGBAHxXwr7TD9D-KFfE8vFSjdiMa_4NaC4RaOo';
 const mainGallery = document.createElement('main');
 const body = document.querySelector('body');
 const noImagesMessage = document.createElement('h2');
-body.append(header('/public/pinterest.png', 'Pinterest', links));
+body.append(header('/pinterest.png', 'Pinterest', links));
 body.append(mainGallery);
 body.append(footer());
 const searchInput = document.querySelector('input');

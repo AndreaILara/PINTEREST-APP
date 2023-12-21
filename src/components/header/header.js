@@ -38,7 +38,7 @@ export const header = (logoUrl, brandName, links) => {
   searchContainer.id = 'search';
   searchContainer.classList.add('flex-container');
 
-  const searchIcon = createImage('/public/lupa.png', 'Buscar');
+  const searchIcon = createImage('/lupa.png', 'Buscar');
   const input = document.createElement('input');
   input.placeholder = 'Buscar';
 

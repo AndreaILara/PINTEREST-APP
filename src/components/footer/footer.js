@@ -45,7 +45,7 @@ export const footer = () => {
   const footer = document.createElement('footer');
   const footerToggle = document.createElement('div');
   const footerIcon = document.createElement('img');
-  footerIcon.src = '/public/mas-informacion.png';
+  footerIcon.src = '/mas-informacion.png';
   footerToggle.appendChild(footerIcon);
 
   const div = document.createElement('div');
