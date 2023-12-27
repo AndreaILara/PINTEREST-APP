@@ -11,6 +11,7 @@ const body = document.querySelector('body');
 const noImagesMessage = document.createElement('h2');
 body.append(header('public/pinterest.png', 'Pinterest', links));
 body.append(mainGallery);
+body.append(linksNavbar);
 body.append(footer());
 const searchInput = document.querySelector('input');
 const firstLoad = () => {
@@ -55,3 +56,4 @@ searchInput.addEventListener('change', (e) =>
 );
 
 firstLoad(UNSPLASH_API, USER_KEY);
+
